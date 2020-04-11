@@ -20,7 +20,7 @@ class CreateLibrosTable extends Migration
             $table->string('autor',100);
             $table->unsignedTinyInteger('cantidad');
             $table->string('editorial',50)->nullable();
-            $table->string('foto'100)->nullable();
+            $table->string('foto',100)->nullable();
             $table->timestamps();
         });
     }
